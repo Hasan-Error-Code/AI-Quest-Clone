@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class DataAnalysisConfig(AppConfig):
+class DaConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'Data_Analysis'
+    name = 'DA'
