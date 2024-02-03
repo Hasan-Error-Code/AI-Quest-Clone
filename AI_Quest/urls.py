@@ -21,7 +21,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('bd/', include('Big_Data.urls')),
     path('blogs/', include('Blogs.urls')),
-    path('cc/', include('Cloud_Computing.urls')),
     path('contact/', include('Contact.urls')),
     path('da/', include('DA.urls')),
     path('dplai/', include('DeepL_and_AI.urls')),
